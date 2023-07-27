@@ -3,11 +3,23 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import Faq from './FaqQuestion/Faq';
+import Pass from './Datapass/Pass';
+import MyComponent from './ReactMemo/Reactmemo';
+import { Header } from './Chatgpt/Header';
+import Simpletask from './Simpletask';
+import Formtask from './Task/Formtask';
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    {/* <Pass/>
+    <MyComponent/> */}
+    {/* <Header /> */}
+    {/* <Faq /> */}
+    <Simpletask logo={"Brand Jay"}/>
+    <Formtask />
   </React.StrictMode>
 );
 
